@@ -1,0 +1,5 @@
+ 1. First solve the file in folder "Integer"
+
+ 2. Then copy file "CaseStudy_2gen.m" to folder "Relaxed", and make sure that the right interval for nadir is fixed in "setNadir.m" (you can know the interval when nadir was chosen to happen from the solution of the Integer optimisation)
+
+ 3. Make sure that you know which services were delivered after and before nadir when calculating the prices in file "study_duals.m"
