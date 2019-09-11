@@ -1,0 +1,7 @@
+ 1. First solve the file in folder "Integer"
+
+ 2. Then copy file "CaseStudy_2gen.m" to folder "Relaxed", and relax the integer commitment Decision Variable to continuous, by changing "y = binvar(num_Clusters,1);" to "y = sdpvar(num_Clusters,1);" 
+
+ 3. Then copy that relaxed "CaseStudy_2gen.m" file into the "pricing" folder, where the binary variables related to the conditional nadir constraints are removed because the time-interval for nadir to happen is fixed. Make sure that that the right interval for nadir is fixed in "setNadir.m" (you can know the interval when nadir was chosen to happen from the solution of the Relaxed optimisation)
+
+ 4. Make sure that you know which services were delivered after and before nadir when calculating the prices in file "study_duals.m"
