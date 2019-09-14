@@ -1,0 +1,1 @@
+If after solving the optimisation the duals take value "NaN", change the value of "tol" in "setNadir.m" until the duals work
