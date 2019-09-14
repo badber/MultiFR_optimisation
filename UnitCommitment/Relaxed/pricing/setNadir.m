@@ -94,7 +94,7 @@ function [DV_Total_FR_atTd,Inertia_term,PLoss_term,FR_term,Bounds,...
 
 
     %% Implement the conditional nadir constraints
-    tol=0.001; % Function "implies" doesn't work propely without a tolerance, check "help implies" to understand why
+    tol=0.01; % Function "implies" doesn't work propely without a tolerance, check "help implies" to understand why
                % IMPORTANT: using a lower value for the tolerance will make
                % code not work as intended, i.e. not enforce the
                % conditional constraints properly. In other versions of the

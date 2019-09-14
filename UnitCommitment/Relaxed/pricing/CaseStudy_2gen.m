@@ -21,7 +21,7 @@ FR_bids = [0.001 0.001]'; % Add a small penalty for FR to the objective function
 %               G3_min, G3_max;
 %               ...
 InputData.Gen_limits = [250 500; % MW
-                        50 100]; % MW
+                        75 150]; % MW
 
 InputData.Td = [7 10]'; % Delivery time of FR for each unit. Units: s
 InputData.H_const = [5 6]'; % s
