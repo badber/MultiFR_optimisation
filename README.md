@@ -10,3 +10,5 @@ The code is self-explanatory. For further explanation, refer to [this paper](
 http://arxiv.org/abs/1909.06671).
 
 The optimisation problem is solved via the toolbox **YALMIP**, you can find instructions for how to install it [here](https://yalmip.github.io/tutorial/installation/). You will also need to install some external MISOCP solver like Mosek or Gurobi, both of which have academic licenses available. Remember to also install the Matlab functionalities of that solver.
+
+This code has been tested with MATLAB version 2017b.
