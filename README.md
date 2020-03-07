@@ -15,6 +15,8 @@ YALMIP is very easy to use. Once installed, you can learn how to use it with fil
 
 This code has been tested with MATLAB version 2017b.
 
+----
+
 If you use this code for your own work, please cite this paper:
  <ol>
   <li>  L. Badesa, F. Teng, and G. Strbac, "<b>Pricing inertia and frequency response with diverse dynamics in a Mixed-Integer Second-Order Cone Programming formulation</b>," <i>Applied Energy</i>, vol. 260, article 114334, 2020.
