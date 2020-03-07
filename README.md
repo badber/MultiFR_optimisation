@@ -14,3 +14,8 @@ The optimisation problem is solved via the toolbox **YALMIP**, you can find inst
 YALMIP is very easy to use. Once installed, you can learn how to use it with file "simple_EconomicDispatch_YALMIP.m", contained in this repository, and through the documentation available in YALMIP's website.
 
 This code has been tested with MATLAB version 2017b.
+
+If you use this code for your own work, please cite this paper:
+ <ol>
+  <li>  L. Badesa, F. Teng, and G. Strbac, "<b>Pricing inertia and frequency response with diverse dynamics in a Mixed-Integer Second-Order Cone Programming formulation</b>," <i>Applied Energy</i>, vol. 260, article 114334, 2020.
+</ol> 
